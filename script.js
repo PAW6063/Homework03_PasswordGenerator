@@ -11,20 +11,6 @@ var passwordRequirements = {
 
 function passwordStats() {
   console.log("event listener 2 activate");
-  /*while(((passwordRequirements.length < 8) || (passwordRequirements.length > 128)) && ((passwordRequirements.lowercase == false) && (passwordRequirements.uppercase == false) && (passwordRequirements.special == false))) {
-    passwordRequirements.length = parseInt(document.getElementById("inputlength").value);
-    passwordRequirements.lowercase = document.getElementById("inputlc").checked;
-    passwordRequirements.uppercase = document.getElementById("inputup").checked;
-    passwordRequirements.special = document.getElementById("inputsp").checked;
-
-    if((passwordRequirements.length < 8) || (passwordRequirements.length > 128)){
-      passwordRequirements.length = window.prompt("Length must be between 8-128!!");
-    }
-    if((passwordRequirements.lowercase == false) && (passwordRequirements.uppercase == false) && (passwordRequirements.special == false)){
-      window.alert("Must check atleast one!!!");
-    }
-  }*/
-
   passwordRequirements.length = parseInt(document.getElementById("inputlength").value);
   passwordRequirements.lowercase = document.getElementById("inputlc").checked;
   passwordRequirements.uppercase = document.getElementById("inputup").checked;
