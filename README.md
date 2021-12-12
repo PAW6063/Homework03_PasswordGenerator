@@ -1,4 +1,4 @@
-# Homework03_PasswordGenerator
+# PasswordGenerator
 
 ## Program Description
 This is a javascript program that generates a password for the user.
@@ -10,7 +10,7 @@ The user is displayed with generate password button and a text field to display 
 ## Links
 
 ### Deployed project:
-    https://paw6063.github.io/Homework03_PasswordGenerator/
+    https://paw6063.github.io/PasswordGenerator/
 
 ### Github Repository:
-    https://github.com/PAW6063/Homework03_PasswordGenerator
+    https://github.com/PAW6063/PasswordGenerator
